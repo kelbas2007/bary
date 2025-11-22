@@ -1,0 +1,148 @@
+[
+  {
+    "id": "budgeting_basics",
+    "title": "Базовый Учет",
+    "description": "Научитесь записывать доходы и расходы. Первый шаг к финансовой грамотности!",
+    "cost": 0
+  },
+  {
+    "id": "savings_strategies",
+    "title": "Копилки",
+    "description": "Научитесь копить деньги на свои мечты и цели!",
+    "cost": 50,
+    "dependencies": ["budgeting_basics"]
+  },
+  {
+    "id": "investment_intro",
+    "title": "Бюджет",
+    "description": "Планируйте доходы и расходы. Контролируйте категории.",
+    "cost": 50,
+    "dependencies": ["budgeting_basics"]
+  },
+  {
+    "id": "credit_awareness",
+    "title": "Планирование",
+    "description": "Используйте календарь для финансового планирования.",
+    "cost": 100,
+    "dependencies": ["investment_intro"]
+  },
+  {
+    "id": "taxes_basics",
+    "title": "Резерв",
+    "description": "Создайте подушку безопасности на черный день.",
+    "cost": 100,
+    "dependencies": ["savings_strategies"]
+  },
+  {
+    "id": "financial_security",
+    "title": "Инвестиции",
+    "description": "Узнайте как приумножать деньги с помощью инвестиций.",
+    "cost": 150,
+    "dependencies": ["credit_awareness", "taxes_basics"]
+  },
+  {
+    "id": "financial_goals_planning",
+    "title": "Цели и Планирование",
+    "description": "Ставьте финансовые цели и планируйте их достижение. Метод SMART.",
+    "cost": 120,
+    "dependencies": ["budgeting_basics"]
+  },
+  {
+    "id": "debt_management",
+    "title": "Управление Долгами",
+    "description": "Учитесь управлять долгами мудро. Различайте хороший и плохой долг.",
+    "cost": 140,
+    "dependencies": ["credit_awareness"]
+  },
+  {
+    "id": "understanding_money_value",
+    "title": "Стоимость Денег",
+    "description": "Понимайте временную стоимость денег и влияние инфляции.",
+    "cost": 130,
+    "dependencies": ["investment_intro"]
+  },
+  {
+    "id": "price_comparison",
+    "title": "Умные Покупки",
+    "description": "Сравнивайте цены и делайте выгодные покупки. Оптимизируйте расходы.",
+    "cost": 110,
+    "dependencies": ["budgeting_basics"]
+  },
+  {
+    "id": "bank_cards_payments",
+    "title": "Банковские Карты",
+    "description": "Используйте банковские карты безопасно и эффективно.",
+    "cost": 120,
+    "dependencies": ["financial_security"]
+  },
+  {
+    "id": "family_budget",
+    "title": "Семейный Бюджет",
+    "description": "Участвуйте в планировании семейного бюджета. Понимайте финансы семьи.",
+    "cost": 140,
+    "dependencies": ["budgeting_basics", "savings_strategies"]
+  },
+  {
+    "id": "charity_giving",
+    "title": "Благотворительность",
+    "description": "Учитесь помогать другим разумно и ответственно.",
+    "cost": 100,
+    "dependencies": []
+  },
+  {
+    "id": "entrepreneurship_kids",
+    "title": "Предпринимательство",
+    "description": "Создавайте свой бизнес и развивайте предпринимательские навыки.",
+    "cost": 160,
+    "dependencies": ["financial_goals_planning", "saving_money"]
+  },
+  {
+    "id": "saving_money",
+    "title": "Экономия",
+    "description": "Учитесь экономить ресурсы и деньги разумно.",
+    "cost": 90,
+    "dependencies": ["budgeting_basics"]
+  },
+  {
+    "id": "shopping_planning",
+    "title": "Планирование Покупок",
+    "description": "Планируйте покупки заранее и избегайте импульсивных трат.",
+    "cost": 95,
+    "dependencies": ["price_comparison"]
+  },
+  {
+    "id": "needs_vs_wants",
+    "title": "Потребности и Желания",
+    "description": "Учитесь отличать важные потребности от желаний и расставлять приоритеты в бюджете.",
+    "cost": 60,
+    "dependencies": ["budgeting_basics"]
+  },
+  {
+    "id": "income_sources",
+    "title": "Источники Дохода",
+    "description": "Разбирайтесь в видах доходов и строите план по их диверсификации.",
+    "cost": 80,
+    "dependencies": ["budgeting_basics"]
+  },
+  {
+    "id": "subscriptions_management",
+    "title": "Подписки",
+    "description": "Контролируйте регулярные платежи и не давайте подпискам съедать бюджет.",
+    "cost": 100,
+    "dependencies": ["price_comparison"]
+  },
+  {
+    "id": "big_purchases_planning",
+    "title": "Крупные Покупки",
+    "description": "Планируйте большие цели, сравнивайте сценарии и избегайте лишней переплаты.",
+    "cost": 130,
+    "dependencies": ["shopping_planning", "financial_goals_planning"]
+  },
+  {
+    "id": "financial_habits",
+    "title": "Финансовые Привычки",
+    "description": "Создавайте ежедневные привычки, которые укрепляют вашу финансовую устойчивость.",
+    "cost": 90,
+    "dependencies": ["saving_money", "financial_goals_planning"]
+  }
+]

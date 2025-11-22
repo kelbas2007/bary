@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Validation errors -->
+    <string name="error_amount_empty">Введите сумму</string>
+    <string name="error_amount_invalid">Введите корректное число</string>
+    <string name="error_amount_zero">Сумма должна быть больше 0</string>
+    <string name="error_amount_too_large">Сумма слишком большая</string>
+    <string name="error_category_empty">Выберите категорию</string>
+    
+    <!-- Screen titles -->
+    <string name="title_bari_core">Ядро Бари</string>
+    <string name="title_balance">Баланс</string>
+    <string name="title_piggy_banks">Копилки</string>
+    <string name="title_calendar">Календарь</string>
+    <string name="title_stats">Статистика</string>
+    <string name="title_lessons">Уроки</string>
+    <string name="title_achievements">Достижения</string>
+    <string name="title_quests">Квесты</string>
+    <string name="title_skills">Навыки</string>
+    <string name="title_settings">Настройки</string>
+    
+    <!-- Messages -->
+    <string name="message_skills_empty">Навыки не найдены</string>
+    <string name="message_loading">Загрузка...</string>
+    
+    <!-- Buttons -->
+    <string name="button_save">Сохранить</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="button_delete">Удалить</string>
+    <string name="button_edit">Изменить</string>
+    <string name="button_add_money">Добавить деньги</string>
+    <string name="button_take_quiz">Пройти тест</string>
+</resources>
+
+
+
+
+

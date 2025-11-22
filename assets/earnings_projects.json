@@ -1,0 +1,263 @@
+[
+  {
+    "id": "pfand_quest",
+    "title_key": "project_pfand_title",
+    "description_key": "project_pfand_description",
+    "category": "family",
+    "difficulty": "easy",
+    "time_minutes_min": 40,
+    "time_minutes_max": 60,
+    "income_min": 100,
+    "income_max": 600,
+    "requires_consent": true,
+    "materials": [
+      "Бутылки с залогом (Pfand)",
+      "Коробка или пакет",
+      "Помощь взрослого для поездки в магазин"
+    ],
+    "steps": [
+      "Собери дома все бутылки с залогом (Pfand)",
+      "С родителем поезжай в магазин",
+      "Сдай бутылки в автомат приёма",
+      "Получи чек/ваучер",
+      "Обменяй на деньги",
+      "Внеси сумму в приложение → выбранная копилка пополнится"
+    ],
+    "safety_notes": [
+      "Всегда с родителем при поездке в магазин",
+      "Никогда не иди к незнакомцам за бутылками",
+      "Деньги передаёт взрослый"
+    ],
+    "consent_text_key": "project_pfand_consent",
+    "bari_hint_key": "bari_pfand_hint"
+  },
+  {
+    "id": "declutter_sale",
+    "title_key": "project_declutter_title",
+    "description_key": "project_declutter_description",
+    "category": "home",
+    "difficulty": "easy",
+    "time_minutes_min": 60,
+    "time_minutes_max": 90,
+    "income_min": 500,
+    "income_max": 2000,
+    "requires_consent": true,
+    "materials": [
+      "5 вещей, которые не нужны",
+      "Коробка",
+      "Камера телефона",
+      "Помощь родителя"
+    ],
+    "steps": [
+      "Выбери 5 вещей, которые тебе не нужны",
+      "Сфотографируй каждую",
+      "С родителем договорись о цене",
+      "Организуй семейную распродажу",
+      "Продай вещи",
+      "Деньги внеси в приложение"
+    ],
+    "safety_notes": [
+      "Продажа только с родителями",
+      "Никогда не публикуй контакты в интернете",
+      "Незнакомцы не должны знать твой адрес"
+    ],
+    "consent_text_key": "project_declutter_consent",
+    "bari_hint_key": "bari_declutter_hint"
+  },
+  {
+    "id": "gift_cards",
+    "title_key": "project_gift_cards_title",
+    "description_key": "project_gift_cards_description",
+    "category": "creative",
+    "difficulty": "easy",
+    "time_minutes_min": 45,
+    "time_minutes_max": 60,
+    "income_min": 200,
+    "income_max": 1000,
+    "requires_consent": true,
+    "materials": [
+      "Цветная бумага",
+      "Фломастеры или краски",
+      "Идеи для рисунков"
+    ],
+    "steps": [
+      "Придумай тему открыток",
+      "Сделай 3-5 открыток",
+      "Покажи родителям",
+      "Подари родным на праздник",
+      "Получи символическую награду от семьи",
+      "Внеси в приложение"
+    ],
+    "safety_notes": [
+      "Используй только безопасные материалы",
+      "С родителем, если работаешь с ножницами",
+      "Только для семьи и знакомых"
+    ],
+    "consent_text_key": "project_gift_cards_consent",
+    "bari_hint_key": "bari_gift_cards_hint"
+  },
+  {
+    "id": "tutoring_sibling",
+    "title_key": "project_tutoring_title",
+    "description_key": "project_tutoring_description",
+    "category": "school",
+    "difficulty": "medium",
+    "time_minutes_min": 30,
+    "time_minutes_max": 45,
+    "income_min": 100,
+    "income_max": 500,
+    "requires_consent": true,
+    "materials": [
+      "Тетрадь младшего брата/сестры",
+      "Учебник",
+      "Терпение"
+    ],
+    "steps": [
+      "Узнай, с чем нужна помощь",
+      "Объясни материал простыми словами",
+      "Помоги решить задачи",
+      "Проверь вместе",
+      "Получи премию 'за урок' от родителей",
+      "Внеси в приложение"
+    ],
+    "safety_notes": [
+      "Только для родных братьев/сестёр",
+      "С разрешения родителей",
+      "Будь терпеливым учителем"
+    ],
+    "consent_text_key": "project_tutoring_consent",
+    "bari_hint_key": "bari_tutoring_hint"
+  },
+  {
+    "id": "plant_care",
+    "title_key": "project_plant_care_title",
+    "description_key": "project_plant_care_description",
+    "category": "family",
+    "difficulty": "easy",
+    "time_minutes_min": 20,
+    "time_minutes_max": 30,
+    "income_min": 150,
+    "income_max": 400,
+    "requires_consent": true,
+    "materials": [
+      "Лейка",
+      "Вода",
+      "Растения дома или у родственников"
+    ],
+    "steps": [
+      "Узнай, какие растения нужно полить",
+      "Проверь землю (сухая или влажная?)",
+      "Аккуратно полей каждое растение",
+      "Убери лишнюю воду из поддона",
+      "Получи награду от взрослых",
+      "Внеси в приложение"
+    ],
+    "safety_notes": [
+      "Всегда спрашивай у взрослых, как поливать",
+      "Не переливай воду",
+      "Только дома или у родственников"
+    ],
+    "consent_text_key": "project_plant_care_consent",
+    "bari_hint_key": "bari_plant_care_hint"
+  },
+  {
+    "id": "paper_sorting",
+    "title_key": "project_paper_sorting_title",
+    "description_key": "project_paper_sorting_description",
+    "category": "eco",
+    "difficulty": "easy",
+    "time_minutes_min": 30,
+    "time_minutes_max": 45,
+    "income_min": 200,
+    "income_max": 600,
+    "requires_consent": true,
+    "materials": [
+      "Старые газеты и журналы",
+      "Коробка для макулатуры",
+      "Родитель для помощи с выносом"
+    ],
+    "steps": [
+      "Собери всю макулатуру дома",
+      "Отсортируй по типу",
+      "Аккуратно сложи в коробку",
+      "С родителем отнеси в пункт приёма",
+      "Получи премию 'за экологию' от родителей",
+      "Внеси в приложение"
+    ],
+    "safety_notes": [
+      "Всегда с родителем при выносе",
+      "Не поднимай тяжёлые коробки один",
+      "Используй перчатки при работе"
+    ],
+    "consent_text_key": "project_paper_sorting_consent",
+    "bari_hint_key": "bari_paper_sorting_hint"
+  },
+  {
+    "id": "bike_washing",
+    "title_key": "project_bike_washing_title",
+    "description_key": "project_bike_washing_description",
+    "category": "family",
+    "difficulty": "easy",
+    "time_minutes_min": 30,
+    "time_minutes_max": 45,
+    "income_min": 150,
+    "income_max": 500,
+    "requires_consent": true,
+    "materials": [
+      "Вёдро с водой",
+      "Губка или тряпка",
+      "Моющее средство (детское)",
+      "Велосипед"
+    ],
+    "steps": [
+      "Наполни ведро водой",
+      "Намочи велосипед",
+      "Нанеси моющее средство",
+      "Тщательно вымой раму, колёса, руль",
+      "Смой мыло",
+      "Вытри насухо",
+      "Получи награду от взрослого",
+      "Внеси в приложение"
+    ],
+    "safety_notes": [
+      "Только с разрешения владельца велосипеда",
+      "Не мочи велосипед, если он электрический",
+      "Работай на улице или в гараже"
+    ],
+    "consent_text_key": "project_bike_washing_consent",
+    "bari_hint_key": "bari_bike_washing_hint"
+  },
+  {
+    "id": "organize_closet",
+    "title_key": "project_organize_closet_title",
+    "description_key": "project_organize_closet_description",
+    "category": "home",
+    "difficulty": "medium",
+    "time_minutes_min": 60,
+    "time_minutes_max": 90,
+    "income_min": 300,
+    "income_max": 800,
+    "requires_consent": true,
+    "materials": [
+      "Пустой шкаф или полки",
+      "Коробки для сортировки",
+      "Этикетки (опционально)"
+    ],
+    "steps": [
+      "Достань все вещи из шкафа",
+      "Раздели на группы",
+      "Сложи аккуратно обратно",
+      "Выброси сломанное (с разрешения родителей)",
+      "Покажи родителям результат",
+      "Получи премию 'за порядок'",
+      "Внеси в приложение"
+    ],
+    "safety_notes": [
+      "Не поднимай тяжёлые коробки один",
+      "Если есть высокие полки - попроси помощи взрослого",
+      "Не выбрасывай вещи без разрешения"
+    ],
+    "consent_text_key": "project_organize_closet_consent",
+    "bari_hint_key": "bari_organize_closet_hint"
+  }
+]

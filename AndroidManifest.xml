@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Разрешение на чтение календаря -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <!-- Разрешение на запись в календарь -->
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <!-- Разрешение на отправку уведомлений (для Android 13+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Разрешение на планирование точных будильников (для Android 12+) -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+
+    <application
+        android:name=".BaryApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bary"
+        android:enableOnBackInvokedCallback="true">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Bary">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Broadcast Receiver для напоминаний -->
+        <receiver
+            android:name=".service.ReminderReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        
+        <!-- Broadcast Receiver для напоминаний от Бари -->
+        <receiver
+            android:name=".service.BariReminderReceiver"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

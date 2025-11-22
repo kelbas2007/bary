@@ -1,0 +1,20 @@
+[
+  {
+    "id": "novice_saver",
+    "title": "Начинающий сберегатель",
+    "description": "Накопите 100 монет.",
+    "icon": "ic_novice_saver"
+  },
+  {
+    "id": "persistent_user",
+    "title": "Постоянный пользователь",
+    "description": "Заходите в приложение 7 дней подряд.",
+    "icon": "ic_persistent_user"
+  },
+  {
+    "id": "goal_achiever",
+    "title": "Целеустремленный",
+    "description": "Достигните своей первой цели в копилке.",
+    "icon": "ic_goal_achiever"
+  }
+]
